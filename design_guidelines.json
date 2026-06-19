@@ -1,0 +1,132 @@
+{
+  "theme": "LIGHT",
+  "archetype": "5 (Luxury) + 1 (Organic & Earthy)",
+  "color_palette": {
+    "primary": "#FF7A00",
+    "secondary": "#FFFFFF",
+    "accent": "#FFA64D",
+    "background": "#F8F8F8",
+    "surface": "#FFFFFF",
+    "text_main": "#0A0A0A",
+    "text_muted": "#6B7280",
+    "border": "#E5E7EB",
+    "error": "#EF4444",
+    "success": "#10B981",
+    "vastu_score_low": "#EF4444",
+    "vastu_score_med": "#F59E0B",
+    "vastu_score_high": "#10B981"
+  },
+  "typography": {
+    "heading_font": "Cabinet Grotesk, sans-serif",
+    "body_font": "Manrope, sans-serif",
+    "rules": {
+      "h1": "text-4xl sm:text-5xl tracking-tighter font-black",
+      "h2": "text-2xl sm:text-3xl tracking-tight font-bold",
+      "h3": "text-xl sm:text-2xl tracking-tight font-semibold",
+      "h4": "text-lg sm:text-xl font-medium",
+      "body": "text-base leading-relaxed text-gray-800",
+      "label": "text-xs tracking-[0.2em] uppercase font-bold text-gray-500"
+    }
+  },
+  "spacing_and_layout": {
+    "container_padding": "p-6 md:p-8",
+    "section_gap": "gap-8 md:gap-12",
+    "card_padding": "p-6",
+    "border_radius": "rounded-2xl sm:rounded-3xl",
+    "shadows": {
+      "soft": "shadow-sm",
+      "premium": "shadow-[0_8px_30px_rgb(0,0,0,0.04)]",
+      "hover": "shadow-[0_20px_40px_rgb(255,122,0,0.1)]"
+    }
+  },
+  "component_styling": {
+    "cards": "bg-white/80 backdrop-blur-xl border border-white/40 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)]",
+    "buttons": {
+      "primary": "bg-[#FF7A00] text-white rounded-full px-8 py-4 font-semibold hover:bg-[#FFA64D] hover:-translate-y-1 transition-all shadow-lg shadow-[#FF7A00]/20",
+      "secondary": "bg-white text-[#FF7A00] border border-[#FF7A00]/20 rounded-full px-8 py-4 font-semibold hover:bg-[#F8F8F8] transition-all",
+      "ghost": "text-gray-600 hover:text-[#FF7A00] hover:bg-[#FF7A00]/10 rounded-full px-6 py-3 transition-all"
+    },
+    "inputs": "bg-[#F8F8F8] border-transparent focus:border-[#FF7A00] focus:ring-2 focus:ring-[#FF7A00]/20 rounded-xl px-4 py-3",
+    "glassmorphism": "backdrop-blur-xl bg-white/70 border border-white/40 shadow-sm"
+  },
+  "screens": {
+    "Login_Signup": {
+      "layout": "Split screen or modal card over premium background.",
+      "components": "Logo, Title, Email/Password Inputs, Primary Login CTA."
+    },
+    "Home_Dashboard": {
+      "layout": "Mobile-first vertical stack.",
+      "hero": "Full-width image card with overlay, greeting text, and 'Design Your Dream Space' CTA.",
+      "tools": "Bento grid of cards (AI Generator, Vastu, Ideas) with subtle orange gradients.",
+      "recent_projects": "Horizontal scroll or 2-column grid of thumbnails."
+    },
+    "Wizard_Step_1_Upload": {
+      "layout": "Large dropzone/upload area, placeholder empty room image, minimal text."
+    },
+    "Wizard_Step_2_RoomType": {
+      "layout": "Grid of room types with icon/image and label."
+    },
+    "Wizard_Step_3_Budget": {
+      "layout": "Interactive slider with preset pills (₹50K to ₹10L+)."
+    },
+    "Wizard_Step_4_ColorPalette": {
+      "layout": "Color swatches with labels (Modern White, Luxury Gold, Earthy Brown, etc.)."
+    },
+    "Wizard_Step_5_Requirements": {
+      "layout": "Large text area, 'Generate Design' primary CTA."
+    },
+    "Loading_Screen": {
+      "layout": "Centered animated loader, glassmorphic card showing steps: Analysis -> Generation -> Cost -> Vastu."
+    },
+    "Design_Ready": {
+      "layout": "Image comparison slider (Before/After), list of furniture items with prices, total estimate card."
+    },
+    "Vastu_Shastra": {
+      "layout": "Circular score gauge (0-100), lists of Positive Aspects, Issues, and Recommendations. Abstract Vastu background."
+    }
+  },
+  "media": {
+    "hero_images": [
+      {
+        "description": "Luxury Modern Living Room Orange Accents",
+        "url": "https://static.prod-images.emergentagent.com/jobs/44ee0fce-a68a-45fc-aa10-26ffee77de4f/images/d311bfc1ec2b88f34c9f1a6421bc4c09f61617182b93e09df97acf7cfdcaa3af.png",
+        "category": "hero_background"
+      }
+    ],
+    "room_thumbnails": [
+      {
+        "description": "Luxury Living Room",
+        "url": "https://images.unsplash.com/photo-1672860044506-e3ec09653e82?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBtb2Rlcm4lMjBpbnRlcmlvciUyMGRlc2lnbiUyMGxpdmluZyUyMHJvb20lMjBvcmFuZ2UlMjBhY2NlbnRzfGVufDB8fHx8MTc4MDE1MDY4NXww&ixlib=rb-4.1.0&q=85",
+        "category": "room_type_living"
+      },
+      {
+        "description": "Luxury Bedroom",
+        "url": "https://images.pexels.com/photos/13722870/pexels-photo-13722870.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "category": "room_type_bedroom"
+      },
+      {
+        "description": "Luxury Dining Room",
+        "url": "https://images.unsplash.com/photo-1690489965043-ec15758cce71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBtb2Rlcm4lMjBpbnRlcmlvciUyMGRlc2lnbiUyMGxpdmluZyUyMHJvb20lMjBvcmFuZ2UlMjBhY2NlbnRzfGVufDB8fHx8MTc4MDE1MDY4NXww&ixlib=rb-4.1.0&q=85",
+        "category": "room_type_dining"
+      }
+    ],
+    "placeholders": [
+      {
+        "description": "Empty Room Placeholder",
+        "url": "https://images.pexels.com/photos/8146213/pexels-photo-8146213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "category": "empty_room_upload"
+      }
+    ],
+    "vastu": [
+      {
+        "description": "Vastu Shastra Abstract Graphic",
+        "url": "https://static.prod-images.emergentagent.com/jobs/44ee0fce-a68a-45fc-aa10-26ffee77de4f/images/154ac31cf00edc705b727520fcfca1d519b5fa0c302a2d14dbeedf7a1419be9d.png",
+        "category": "vastu_shastra_banner"
+      }
+    ]
+  },
+  "testing": {
+    "attributes": "All interactive elements MUST include data-testid attributes (e.g., data-testid='login-submit-button')."
+  },
+  "instructions_to_main_agent": "Use Shadcn components for complex interactions but strictly apply the provided custom Tailwind classes. Implement a mobile-first responsive layout. Apply the glassmorphism and shadow tokens specifically on cards to achieve the premium aesthetic. Rely on the provided primary (#FF7A00) as the only vibrant brand color, allowing #FFFFFF and #F8F8F8 to provide a luxurious spacious backdrop. Follow the 5-step wizard structure exactly as outlined."
+}
